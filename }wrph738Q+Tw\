@@ -1,0 +1,42 @@
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mindex 6372894..47c2354 100644[m
+[1m--- a/.idea/misc.xml[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -11,4 +11,7 @@[m
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">[m
+     <output url="file://$PROJECT_DIR$/out" />[m
+   </component>[m
+[32m+[m[32m  <component name="ProjectType">[m
+[32m+[m[32m    <option name="id" value="jpab" />[m
+[32m+[m[32m  </component>[m
+ </project>[m
+\ No newline at end of file[m
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex 39f9324..84c600d 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -12,5 +12,5 @@[m
+         <maven.compiler.source>18</maven.compiler.source>[m
+         <maven.compiler.target>18</maven.compiler.target>[m
+     </properties>[m
+[31m-    [m
+[32m+[m
+ </project>[m
+\ No newline at end of file[m
+[1mdiff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java[m
+[1mindex 734365b..2439ee0 100644[m
+[1m--- a/src/main/java/org/example/Main.java[m
+[1m+++ b/src/main/java/org/example/Main.java[m
+[36m@@ -1,5 +1,9 @@[m
+[31m-package org.example;public class Main {[m
+[31m-    public static void main(String[] args) {[m
+[32m+[m[32mpackage org.example;[m
+[32m+[m
+[32m+[m[32mpublic class Main {[m
+[32m+[m[32m    public static void main(String[] args)[m
+[32m+[m[32m    {[m
+         System.out.println("Hello world!");[m
+[32m+[m[32m        12345[m
+     }[m
+ }[m
+\ No newline at end of file[m
